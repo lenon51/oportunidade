@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MinutoSegurosLenon.Properties {
+namespace MinutaApi.Properties {
     using System;
     using System.Reflection;
     
@@ -40,7 +40,7 @@ namespace MinutoSegurosLenon.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MinutoSegurosLenon.Properties.Resources", typeof(Resources).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MinutaApi.Properties.Resources", typeof(Resources).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -58,6 +58,33 @@ namespace MinutoSegurosLenon.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ( o )|( a )|( e )|( os )|( as )|( ao )|( aos )|( de )|( do )|( da )|( dos )|( das )|( em )|( no )|( na )|( nos )|( nas )|( por )|( pelo )| ( pela )|( pelos )|( pelas )|( um )|( uma )|( uns )|( umas )|( em )|( num )|( numa )|( nuns )|( numas )|( de )|( dum )|( duma )|( duns )|( dumas )|( entre )|( como ).
+        /// </summary>
+        internal static string Palavra {
+            get {
+                return ResourceManager.GetString("Palavra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a &lt;.*?&gt;|(posts)|(related)|[,-]|[:-]|[.-]|( à )|( às )|( para )|( com )|( é ).
+        /// </summary>
+        internal static string Tag {
+            get {
+                return ResourceManager.GetString("Tag", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a https://www.minutoseguros.com.br/blog/feed/.
+        /// </summary>
+        internal static string UrlRss {
+            get {
+                return ResourceManager.GetString("UrlRss", resourceCulture);
             }
         }
     }

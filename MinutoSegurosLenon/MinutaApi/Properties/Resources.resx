@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Palavra" xml:space="preserve">
+    <value>( o )|( a )|( e )|( os )|( as )|( ao )|( aos )|( de )|( do )|( da )|( dos )|( das )|( em )|( no )|( na )|( nos )|( nas )|( por )|( pelo )| ( pela )|( pelos )|( pelas )|( um )|( uma )|( uns )|( umas )|( em )|( num )|( numa )|( nuns )|( numas )|( de )|( dum )|( duma )|( duns )|( dumas )|( entre )|( como )</value>
+    <comment>Lista de palavras a serem excluídas</comment>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>&lt;.*?&gt;|(posts)|(related)|[,-]|[:-]|[.-]|( à )|( às )|( para )|( com )|( é )</value>
+    <comment>Outras palavras a serem retiradas</comment>
+  </data>
+  <data name="UrlRss" xml:space="preserve">
+    <value>https://www.minutoseguros.com.br/blog/feed/</value>
+    <comment>Url do blog</comment>
+  </data>
 </root>
